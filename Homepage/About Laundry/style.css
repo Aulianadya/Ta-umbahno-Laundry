@@ -1,0 +1,171 @@
+/* Menetapkan tata letak dasar */
+body {
+  margin: 0;
+  background-color: #446165;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header .logo {
+  width: 75px;
+  margin-right: 20px;
+  height: 75px;
+}
+
+/* Navbar dengan flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Menempatkan logo di kiri dan tombol di kanan */
+    align-items: center; /* Menjaga agar elemen-elemen vertikal sejajar */
+    padding: 20px;
+    background-color: #629298; /* Navbar background color updated */
+    color: rgb(251, 251, 251); /* Navbar text color updated */
+}
+
+.navbar img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px; /* Add space between logo and title */
+}
+
+.navbar h1 {
+    margin-right: auto;
+    font-size: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    font-style: italic; /* Font styling updated */
+}
+
+/* Menempatkan tombol navbar di kanan */
+.navbar-nav {
+    display: flex; /* Mengatur tombol menjadi satu baris */
+    gap: 20px; /* Jarak antar tombol */
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Text color for navbar buttons updated */
+    padding: 10px 15px;
+    background-color: rgb(113, 182, 192); /* Button background color updated */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: large;
+}
+
+.navbar-nav a:hover {
+    color: rgb(255, 255, 255); /* Hover color updated */
+    background-color: transparent; /* Remove background color on hover */
+}
+
+/* About Section */
+.about-section {
+    background-color: #446165;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.about-content .btn {
+  background-color: #ffd700;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.about-content .btn:hover {
+  color: rgb(249, 12, 12);
+}
+
+/* Keunggulan Section */
+.advantages-section {
+    padding: 50px;
+    background-color: #799ca0;
+}
+
+.advantages-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.advantage {
+    background-color: #446165;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.advantage h3 {
+    font-size: 24px;
+}
+
+.advantage p {
+    font-size: 16px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #446165;
+    padding: 50px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonial {
+    background-color: #799ca0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial blockquote {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial .author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial .author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial .author span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #629298; /* Footer background color updated */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
